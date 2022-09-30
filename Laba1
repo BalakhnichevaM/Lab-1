@@ -1,8 +1,0 @@
-import csv
-with open("books.csv", encoding='utf-8') as r_file:
-    file = csv.reader(r_file, delimiter = ",")
-
-cnt_zap = 0
- for zapisi in file:
-    cnt_zap += 1
-print(f"Всего в файле {cnt_zap} строк:)")
